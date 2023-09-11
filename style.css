@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background-color: #0000FF;
+}
+.container{
+    background-color:black;
+    height:400px;
+    width:380px;
+    border:10px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+}
+input{
+    width:80px;
+    height:50px;
+    background-color:cyan;
+    color:darkblue;
+    font-size: x-large;
+}
+#result{
+    font-size: x-large;
+    width:240px;
+    height:44px;
+    background-color: white;
+    text-align: end;
+}
+@media (min-width:250px) and (max-width:390px){
+    .container{
+        height:300px;
+        width:300px;
+    }
+    input{
+        width:60px;
+        height:40px;
+    }
+    #result{
+        width:180px;
+        height:35px;
+    }
+
+}
+@media (min-width:390px) and (max-width:450px){
+    input{
+        width:80px;
+    }
+    #result{
+        width:230px;
+    }
+}
